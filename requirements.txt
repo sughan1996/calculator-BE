@@ -1,3 +1,4 @@
+git+https://github.com/sughan1996/calculator-quantlib.git
 pandas>=1.1.5
 matplotlib>=3.3.4
 xmltodict>=0.12.0

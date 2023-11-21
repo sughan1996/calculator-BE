@@ -9,10 +9,8 @@ setup(
     author='Your Name',
     author_email='youremail@example.com',
     license='MIT',
-    packages=find_packages(),
+    packages=find_packages() + ['CalculatorQuantApp'],  # Include your package and the subpackage
     install_requires=requirements,
-    python_requires='=3.6',
-    dependency_links=[
-        'git+https://github.com/sughan1996/calculator-quantlib.git#egg=calculator-quantlib'
-    ]
+    python_requires='>=3.6',
+    package_data={'CalculatorQuantApp': ['*']}  # Include package data
 )
