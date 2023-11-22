@@ -9,5 +9,5 @@ setup-requires = ["setuptools_scm"]
 name = "CalculatorApp"
 version = "0.1.0"
 description = "Calculator code"
-author = "Your Name <sughanrichardson196@gmail.com>"
+author = "sughanrichardson1996@gmail.com"
 license = "MIT"
